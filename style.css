@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* common */
+
+header { 
+  background-image: url(img/Mio_background.png);
+  background-color: rgba(255,255,255,0.3);
+  background-blend-mode: lighten;
+  background-size: contain;
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 64px);
+  box-sizing: border-box;
+  /* padding: 32px 0; */
+}
+
+body {
+  margin: 0;
+  background-image: url(star_background.png);
+  background-position: center;
+  background-color: rgba(255,255,255,0.3);
+  background-blend-mode: lighten;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+.products h2 {
+  margin: 0;
+  background-image: url(img/Mio_background.png);
+  background-color: rgba(255,255,255,0.3);
+  background-blend-mode: lighten;
+  background-size: auto;
+  border-radius: 8px;;
+  /* color: rgb(126, 126, 126); */
+  /* font-weight: normal; */
+  font-size: 20px;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 64px);
+  box-sizing: border-box;
+  padding: 32px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* prodacts */
+
+.products {
+  margin-top: 32px;
+}
+
+.products ul {
+  list-style: none;
+  margin: 32px 0 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.products li {
+  width: calc((100% - 64px) / 3);
+  box-sizing: border-box;
+  background-image: url(img/Mio_background.png);
+  background-color: rgba(255,255,255,0.3);
+  background-blend-mode: lighten;
+  background-size: auto;
+  border-radius: 5px;
+} 
+
+.products img {
+  width: 100%;
+  height: auto;
+}
+
+.products h3 {
+  margin-top: 8px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 32px;
+  background:black;
+  text-align: center;
+}
+
+small {
+  font-size: 14px;
+  color: rgb(126, 126, 126);
+}
+
+/* product */
+
+.product {
+  background:rgba(255, 255, 255, 0.5);
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.product div {
+  flex: 1;
+}
+
+.product p {
+  margin-top: 16px;
+}
+
+.product button {
+  background:#168a2d;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 100px;
+  margin-top: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
